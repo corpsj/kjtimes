@@ -101,7 +101,7 @@ export default function Home() {
               {Array(5).fill(0).map((_, i) => (
                 <Group key={i} gap="xs">
                   <Badge variant="filled" color="gray" size="sm" radius="xl" circle>{i + 1}</Badge>
-                  <Text size="sm" truncated w="80%" style={{ cursor: 'pointer' }}>
+                  <Text size="sm" truncate="end" w="80%" style={{ cursor: 'pointer' }}>
                     실시간 인기 뉴스 제목이 들어갑니다 {i + 1}
                   </Text>
                 </Group>
